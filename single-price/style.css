@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    padding-top: 2%;
+}
+
+a {
+    font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 0.8px;
+}
+
+b {
+    font-size: 120%;
+}
+
+.h2-price {
+    color: #fff;
+}
+
+span {
+    opacity: 0.6;
+}
+
+.header h1 {
+    color: rgb(15, 197, 188);
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.header h2 {
+    color: rgb(188, 235, 101);
+    padding-bottom: 2%;
+}
+
+.header p {
+    color: rgb(141, 141, 141);
+    padding-bottom: 4%;
+    width: 90%;
+}
+
+.header {
+    margin-left: 7.5%;
+}
+
+.box-content {
+    background-color: fff;
+}
+
+.btn-primary {
+    background-color: rgb(188, 235, 101) !important;
+    margin-top: 10%;
+    width: 85%;
+    height: 55px;
+    font-weight: bolder;
+}
+
+.content {
+    margin: auto;
+    text-align: left;
+    width: 70%;
+}
+
+.col-md-6 {
+    background-color: rgb(15, 197, 188);
+    display: table-cell;
+    width: 50% !important;
+    height: 400px;
+}
+
+.sub-content {
+    margin-left: 15%;
+    margin-top: 12%;
+    width: 75%;
+}
+
+.sub-content h1,
+h2 {
+    color: #fff;
+    font-size: 170%;
+    padding-bottom: 5%;
+}
+
+.price p {
+    margin-top: 4%;
+}
+
+.why-explanation {
+    background-color: rgb(80, 207, 201);
+}
+
+.why-explanation p {
+    opacity: 0.8;
+    line-height: 33px;
+    width: 74%;
+}
+
+@media(max-width: 400px) {
+    .col-md-6 {
+        display: inline-block;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .content {
+        width: 100%;
+    }
+    .col-md-12 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
