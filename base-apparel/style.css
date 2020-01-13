@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Martel:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+h1,
+h3 {
+    color: coral;
+}
+
+h1 span {
+    color: black;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+.imgs {
+    display: inline-block;
+    position: relative;
+}
+
+.imgs .img-girl-mob {
+    display: none;
+}
+
+.text-content {
+    font-family: "Martel";
+    padding-top: 5%;
+    padding-left: 20%;
+    text-align: left;
+    width: 35%;
+}
+
+.text-content .logo {
+    padding-bottom: 15%;
+}
+
+.text-content h1 {
+    font-family: "Josefin Slab";
+    font-size: 4.5rem;
+    font-weight: 1;
+    text-transform: uppercase;
+}
+
+.span-content {
+    font-weight: 900;
+}
+
+.text-content h3 {
+    font-size: 15px;
+    font-weight: 1;
+    padding-top: 3%;
+}
+
+.input-email {
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: rgb(253, 199, 180);
+    height: 2.5rem;
+    width: 90%;
+    margin-top: 4%;
+    display: inline-block;
+    position: relative;
+    padding-left: 10%;
+}
+
+::placeholder {
+    color: coral;
+    opacity: 0.5;
+    /* padding-left: 10%; */
+}
+
+.icon-arrow {
+    background-image: linear-gradient(to right, rgb(243, 196, 196), coral);
+    border: 1px solid 0.5;
+    border-radius: 25px;
+    border-color: coral;
+    margin-top: -3.8%;
+    padding: 8px 36px;
+    right: 42%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+.icon-error {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 600px;
+    top: 90.5%;
+}
+
+#msg-label {
+    color: red;
+    font-size: 80%;
+    margin-left: 9%;
+}
+
+
+/*until 1461 - 920 Size*/
+
+@media (max-width: 1461px) {
+    .imgs {
+        width: auto;
+        max-width: 100% !important;
+        height: auto;
+    }
+    .imgs .img-back {
+        width: 55%;
+        height: auto;
+    }
+    .imgs .img-girl {
+        width: 40%;
+        height: auto;
+    }
+    .imgs .img-girl-mob {
+        display: none;
+    }
+    .content .logo {
+        padding-bottom: 3%;
+    }
+    .text-content {
+        padding-top: 4%;
+        padding-left: 15%;
+    }
+    .text-content h1 {
+        font-size: 316%;
+    }
+    .text-content h3 {
+        font-size: 14px;
+    }
+    .input-email {
+        height: 2.2rem;
+    }
+    .icon-arrow {
+        right: 45%;
+        padding: 6px 33px;
+    }
+    .icon-error {
+        right: 565px;
+        top: 87.5%;
+    }
+}
+
+
+/*Mobile*/
+
+@media (max-width: 920px) {
+    form {
+        margin-bottom: 0%;
+    }
+    footer {
+        padding-top: 500px;
+        margin-left: 47%;
+        width: 100%;
+    }
+    .imgs .img-back {
+        display: none
+    }
+    .imgs .img-girl {
+        display: none;
+    }
+    .imgs .img-girl-mob {
+        display: inline-block;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        height: 380px;
+        width: 689px;
+    }
+    .text-content {
+        padding: 5%;
+        width: 100%;
+    }
+    .text-content .logo {
+        padding-top: 3%;
+        padding-left: 20%;
+    }
+    .text-content h1 {
+        font-size: 350%;
+        padding-top: 400px;
+        padding-left: 38%;
+        text-align: center !important;
+        width: 90%;
+    }
+    .text-content h3 {
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-left: 38%;
+        text-align: center;
+        width: 100%;
+    }
+    .icon-arrow {
+        left: 130%;
+        padding: 6px 21px;
+        bottom: 4.8%;
+        display: inline;
+    }
+    .icon-error {
+        left: 120%;
+        top: 92%;
+    }
+    #msg-label {
+        margin-left: 50%;
+    }
+    .input-email {
+        bottom: 0;
+        width: 85%;
+        margin-left: 40%;
+    }
+    .attribution {
+        margin-top: 12%;
+    }
+}

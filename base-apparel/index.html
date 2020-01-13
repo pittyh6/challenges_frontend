@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="row">
+            <div class="col-12">
+                <div class="content">
+                    <div class="text-content">
+                        <div class="nav">
+                            <img class="logo" src="images/logo.svg" alt="logo web site">
+                        </div>
+                        <h1>we're <span class="span-content">coming soom</span> </h1>
+                        <h3>Hello fellow shoopers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</h3>
+
+                        <form action="#" method="POST" name="email" onsubmit="return false">
+                            <input class="input-email" id="email" name="email" type="text" placeholder="Email Address">
+                            <img class="icon-error" src="images/icon-error.svg" alt="" onclick="show()">
+                            <button onclick="getInputValue();" id="email-btn" class="icon-arrow" type="submit">
+                                    <img src="images/icon-arrow.svg" alt="">
+                                </button>
+                        </form>
+                        <label for="" id="msg-label" class="msg-label-suc"></label>
+                    </div>
+                </div>
+                <div class="imgs">
+                    <img class="img-back" src="images/bg-pattern-desktop.svg" alt="desktop pattern background">
+                    <img class="img-girl" src="images/hero-desktop.jpg" alt="desktop hero girl image">
+                    <img class="img-girl-mob" src="images/hero-mobile.jpg" alt="mobile hero girl image">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/priscila-ferreira-bezerra-32181923/?locale=en_US" target="_blank">
+                    pittyh6.</a>.
+        </p>
+    </footer>
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
