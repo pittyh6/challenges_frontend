@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+body {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Open Sans Condensed";
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: lighter;
+}
+
+h1,
+h2 {
+    font-size: 3em;
+}
+
+h2,
+h5 {
+    font-weight: bolder;
+}
+
+h1 {
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    width: 30%;
+    margin-top: 2%;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: cursive;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.6;
+    text-align: left;
+}
+
+img {
+    margin-left: 50%;
+    width: 15%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20%;
+}
+
+.card-body {
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.content {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+.card {
+    border-radius: 7px;
+    text-align: center;
+    width: 25%;
+    height: 210px;
+    -webkit-box-shadow: 9px 7px 5px rgba(177, 177, 177, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(177, 177, 177, 0.77);
+    box-shadow: 2px 4px 17px -3px rgba(177, 177, 177, 0.77);
+}
+
+.supervisor .card {
+    border-top: 3px solid aquamarine;
+    display: block;
+    margin-left: 10%;
+    /* margin-top: 15%;  */
+    /* margin-left: 135px; */
+    margin-top: 200px;
+}
+
+.teamBuilder .card {
+    border-top: 3px solid red;
+    margin-left: 38%;
+    /*  margin-top: -25%; 
+    margin-left: 505px; */
+    margin-top: -332px;
+}
+
+.karma .card {
+    border-top: 3px solid rgb(241, 206, 118);
+    margin-left: 38%;
+    /*  margin-top: 3%;
+    margin-left: 505px; */
+    margin-top: 34px;
+}
+
+.calculator .card {
+    border-top: 3px solid rgb(79, 161, 236);
+    margin-left: 65%;
+    /*  margin-top: -25%;
+    margin-left: 877px; */
+    margin-top: -341px;
+}
+
+@media(max-width: 824px) {
+    h3 {
+        margin-top: 5%;
+        margin-bottom: 6%;
+        width: 70%;
+    }
+    .row .card {
+        margin-left: 7.5%;
+        margin-top: 5%;
+        width: 85%;
+        height: auto;
+    }
+}
