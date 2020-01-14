@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body class="body-back">
+    <div class="content">
+        <div class="left-content">
+            <h1>Learn to code by watching others </h1>
+            <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+        </div>
+        <div class="right-content">
+            <div class="right-top-content">
+                <h2><span>Try it free 7 days</span> then $20/mo. thereafter </h2>
+            </div>
+
+            <form class="box-rigth-content" action="#" method="post" onsubmit="return false">
+                
+                <input id="firstName" name="First Name" type="text" placeholder="First Name" >
+                <img class="icon-error" src="images/icon-error.svg" alt="icon image error">
+                <p class="label-error"><label class="label-error" for="First Name"></label></p>
+
+                <input id="lastName" name="Last Name" type="text" placeholder="Last Name">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon image error">
+                <p class="label-error"><label class="label-error" for="Last Name"></label></p>
+
+                <input id="email" name="Email Address" type="text" placeholder="Email Address">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon image error">
+                <p class="label-error"><label class="label-error" for="Email Address"></label></p>
+
+                <input id="password" name="Password" type="text" placeholder="Password">
+                <img class="icon-error" src="images/icon-error.svg" alt="icon image error">
+                <p class="label-error"><label class="label-error" for="Password"></label></p>
+
+                <button class="btn btn-success" type="submit" value="submit"  onclick="validate(); "  >Claim your free trial </button>
+                <p class="term-service">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/pittyh6" target="_blank">pittyh6</a>.
+        </p>
+    </footer>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</html>
+
+
+
+
+<!-- - 
+  View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Receive an error message when the `form` is submitted if:
+  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). 
+  The message for this error should say *"Looks like this is not an email"*
+ -->

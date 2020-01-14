@@ -1,0 +1,145 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+.body-back {
+    background-color: rgba(255, 0, 0, 0.479);
+}
+
+h1,
+h2,
+p {
+    color: #fff !important;
+    font-family: sans-serif;
+}
+
+.content {
+    display: inline-flex;
+    padding-top: 7%;
+}
+
+.left-content {
+    width: 50%;
+    height: 250px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 12%;
+}
+
+.left-content h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.right-content {
+    width: 50%;
+    padding-right: 10%;
+}
+
+.right-top-content {
+    background-color: rgb(98, 75, 151);
+    border-radius: 8px;
+    box-shadow: 1px 7px #4e4e4e60;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+}
+
+.right-top-content h2 {
+    font-size: 15px;
+    padding-top: 3%;
+}
+
+.right-top-content span {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.box-rigth-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 4%;
+    text-align: center;
+    width: 100%;
+}
+
+.box-rigth-content input {
+    border-radius: 7px;
+    border-style: solid;
+    border: none;
+    border-width: 1px;
+    border: 1px solid #cccccc;
+    padding-left: 8%;
+    margin: 2%;
+    width: 80%;
+    height: 55px;
+    display: inline-block;
+    position: relative;
+}
+
+.box-rigth-content .icon-error {
+    margin-left: -4%;
+    margin-top: 1.8%;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.box-rigth-content .label-error {
+    color: red !important;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: 10.5%;
+}
+
+.box-rigth-content .btn-success {
+    background-color: rgba(32, 184, 113, 0.911);
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    width: 80%;
+    height: 60px;
+}
+
+.box-rigth-content .term-service {
+    color: rgba(0, 0, 0, 0.623) !important;
+    font-size: 10px;
+    padding-bottom: 6%;
+}
+
+.box-rigth-content span {
+    color: red;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+@media(max-width: 450px) {
+    .content {
+        display: inline-block;
+    }
+    .left-content {
+        text-align: center;
+        width: 90%;
+    }
+    .left-content h1 {
+        font-size: 40px;
+    }
+    .right-content {
+        width: 100%;
+        margin-top: 20%;
+        padding: 0 9%;
+    }
+    .right-top-content h2 {
+        font-size: 12px;
+        padding-top: 6%;
+    }
+    .box-rigth-content .icon-error {
+        margin-left: -11%;
+        margin-top: 6%;
+    }
+}
