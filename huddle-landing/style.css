@@ -1,0 +1,105 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: rgba(17, 15, 139, 0.404) !important;
+    text-align: center;
+}
+
+h1,
+p {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.logo {
+    text-align: left;
+    margin: 2% 0 2% 0;
+}
+
+.content {
+    margin: auto;
+    width: 90%;
+}
+
+.content-left .illustration {
+    width: 100%;
+}
+
+.content-right {
+    left: 3%;
+    top: 60px;
+    width: 50px;
+}
+
+.content-right h1 {
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.content-right p {
+    font-size: 20px;
+}
+
+.btn-register {
+    background-color: #ffffff !important;
+    border-radius: 55px!important;
+    border-color: rgba(17, 15, 139, 0.404)!important;
+    color: rgba(17, 15, 139, 0.404)!important;
+    margin-top: 3%;
+    height: 55px;
+    width: 30%;
+}
+
+.icons-social-media {
+    text-align: right;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.icon-fb {
+    left: -220% !important;
+}
+
+.icon-tw {
+    left: -110% !important;
+}
+
+@media(max-width: 1024px) {
+    .content-right h1 {
+        font-size: 200%;
+    }
+}
+
+@media(max-width: 450px) {
+    .top-content {
+        text-align: left;
+        font-size: 50px;
+    }
+    .top-content img {
+        width: 50%;
+    }
+    .content {
+        text-align: center;
+    }
+    .btn-register {
+        width: 65%;
+    }
+    .icons-social-media {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 29%;
+    }
+}
