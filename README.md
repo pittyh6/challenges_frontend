@@ -9,3 +9,7 @@ Links page live
 3) https://pittyh6.github.io/challenges_frontend/single-price/
 
 4) https://pittyh6.github.io/challenges_frontend/signup-form/
+
+5) https://pittyh6.github.io/challenges_frontend/huddle-landing/
+
+6) https://pittyh6.github.io/challenges_frontend/fylo-landing/
