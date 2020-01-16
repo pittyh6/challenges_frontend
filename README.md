@@ -13,3 +13,5 @@ Links page live
 5) https://pittyh6.github.io/challenges_frontend/huddle-landing/
 
 6) https://pittyh6.github.io/challenges_frontend/fylo-landing/
+
+7) https://pittyh6.github.io/challenges_frontend/huddle-landing-2/
