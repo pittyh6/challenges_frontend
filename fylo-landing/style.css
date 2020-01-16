@@ -1,0 +1,202 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 660%;
+    background-position: 45% 55%;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.navbar-expand-lg {
+    margin-top: 2%;
+}
+
+.logo {
+    margin-left: 4%;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+}
+
+#navbarSupportedContent {
+    padding-left: 50%;
+}
+
+#navbarSupportedContent li {
+    margin-left: 15%;
+}
+
+.sign-in a {
+    width: 90px;
+}
+
+.content-middle {
+    margin: 2% 2% -2% 2%;
+}
+
+.row {
+    padding: 3%;
+}
+
+.content-middle .col-sm-6 {
+    padding-right: 5%;
+}
+
+.content-middle .illustration {
+    padding-left: 2%;
+}
+
+.get-started {
+    width: 50%;
+    height: 11%;
+}
+
+.get-started-btn {
+    width: 25%;
+}
+
+.illustration {
+    width: 80%;
+}
+
+.content-left-first {
+    padding-top: 5%;
+}
+
+.second {
+    margin-top: 5%;
+}
+
+.card {
+    width: 85%;
+}
+
+.card-body {
+    padding: 7% !important;
+}
+
+.card-name {
+    font-weight: bolder;
+}
+
+.card-function {
+    line-height: 0.0;
+}
+
+.third {
+    background-color: rgb(142, 57, 223);
+    color: #fff;
+    margin: 0;
+}
+
+.third .content-left-third {
+    padding-left: 4%;
+}
+
+.content-rigth-third .get-started {
+    height: 35%;
+    width: 60%;
+}
+
+.fourth {
+    background-color: rgb(22, 1, 100);
+    color: #fff;
+}
+
+.fourth h3 {
+    font-size: 100%;
+}
+
+.logo-footer {
+    padding-bottom: 2%;
+}
+
+.col-sm-3 {
+    left: 4%;
+}
+
+.icon-footer {
+    margin-right: 2%;
+}
+
+.icon-fb {
+    left: -250% !important;
+}
+
+.icon-tw {
+    left: -125% !important;
+}
+
+@media(max-width: 450px) {
+    body {
+        text-align: center!important;
+        background-image: url(images/bg-curve-mobile.svg);
+        background-size: 420rem;
+        background-position: 45% 50%;
+    }
+    .logo {
+        margin: 0;
+        width: 30%;
+    }
+    h1 {
+        font-size: 30px!important;
+    }
+    #navbarSupportedContent {
+        margin: 0!important;
+    }
+    #illust-first {
+        margin-top: -255%!important;
+    }
+    .content-left-first {
+        padding-top: 60%;
+    }
+    .get-started {
+        width: 73%;
+        padding-bottom: 4%;
+    }
+    #input-get-started {
+        padding-bottom: 5%;
+    }
+    .get-started-btn {
+        width: 73%;
+        margin-top: 2%
+    }
+    #illust-second {
+        margin-top: -480%!important;
+    }
+    .content-left-second {
+        padding-top: 60%;
+    }
+    .card {
+        margin-left: 9%;
+    }
+    .content-rigth-third .get-started {
+        width: 73%;
+    }
+    .icons-social-media {
+        margin-left: 21%;
+    }
+    .fourth {
+        text-align: left;
+        padding-left: 10%;
+    }
+    .logo-footer {
+        margin: 5% 0;
+    }
+    .col-sm-3 {
+        margin-bottom: 8%;
+    }
+}
