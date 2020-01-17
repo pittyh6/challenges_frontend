@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h1 span {
+    font-family: "Baskervville";
+    font-weight: lighter;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.container {
+    font-family: "Gayathri";
+    font-weight: bolder;
+    margin: auto;
+    width: 80%;
+}
+
+.logo {
+    margin-top: 2%;
+}
+
+#notify {
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.274);
+    height: 40px;
+}
+
+input {
+    padding-left: 5%;
+    width: 35%;
+}
+
+button {
+    background-color: rgba(29, 29, 216, 0.651);
+    color: #fff;
+    width: 15%;
+}
+
+button:hover {
+    background-color: rgba(127, 25, 223, 0.699);
+}
+
+.form-group {
+    margin-bottom: 1%;
+}
+
+.error-label {
+    color: red;
+    font-style: italic;
+    font-weight: lighter;
+    display: none;
+    padding-right: 25%;
+    padding-top: 2%;
+}
+
+.illustration {
+    margin: auto;
+    margin-top: 2%;
+    width: 75%;
+}
+
+.icons-social-media {
+    color: rgba(29, 29, 216, 0.651);
+    margin-bottom: 2%;
+}
+
+.icon-hover:hover {
+    background-color: rgba(29, 29, 216, 0.651);
+    border-radius: 100%;
+    color: #fff;
+}
+
+.icon-fb {
+    margin-left: -150%;
+}
+
+.icon-inst {
+    margin-left: 150%;
+}
+
+.copyright p {
+    font-size: 12px;
+}
+
+@media(max-width: 450px) {
+    #notify {
+        margin: 1%;
+        width: 80%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .illustration {
+        margin: 5% -30px 6% 0px;
+        width: 90%;
+    }
+}
